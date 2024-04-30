@@ -1,0 +1,17 @@
+.textProperties h1{
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.textProperties{
+    text-indent: 50px;
+    line-height: 30px;
+  
+    /* word-spacing: 13px;
+    letter-spacing: 5px; */
+}
+
+#decoration{
+    vertical-align: sub;
+    font-weight: bolder;
+}

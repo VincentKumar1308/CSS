@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    border: 0;
+}
+body{
+    background-color: gray;
+}
+
+.container{
+    display: flex;
+
+    align-items: center;
+    background-color: grey;
+    height: 100vh;
+    width: 100vw;
+   
+}
+
+.login{
+    display: flex;
+    width: 100vmin;
+    height: 50vmin;
+    margin:auto;
+    background-color: green;
+    
+}
+
+.left{
+    background-color:brown;
+    height: 100%;
+    width: 50%;
+
+}
+
+.right{
+    background-color:white;
+    height: 100%;
+    width: 50%;
+}
+
+.logo{
+    margin-top: 5%;
+}
+
+.logo #syncfusion{
+    color: white;
+    font-weight: bold;
+    font-size: 150%;
+    vertical-align: super;
+    
+}
+
+.logo #hello{
+    margin-top: 4%;
+    margin-left: 8%;
+    margin-bottom: 2%;
+    margin-right: 10%;
+    color: white;
+    font-size: 200%;
+    font-weight: bold;
+    border-bottom: 2px solid white;
+}
+
+.links{
+    margin-top: 4%;
+    margin-left: 8%;
+    margin-bottom: 2%;
+    margin-right: 10%;
+    color: white;
+    font-size: 100%;
+    font-weight: bold;
+
+}
+
+.icons{
+    margin-top: 5%;
+    color: white;
+    background-color: blue;
+    padding: 3%;
+    width: 90%;
+}
+.google{
+    background-color: red;
+}
+
+.twitter{
+    background-color: rgb(30, 100, 100);
+}
+
+#login{
+    margin-top: 10%;
+    margin-left: 3%;
+}
+#contents{
+    color: rgb(154, 24, 161);
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 3%;
+}
+
+#contents a{
+    text-decoration: none;
+    color: blue;
+}
+
+
+  
+.right input{
+  width: 90%;
+  height: 10%;
+  margin-left: 5%;
+ 
+}
+
+#checkboxes{
+    width: 5%;
+    height: 5%;
+    border: .5px solid black;
+}
+
+#buttons{
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+    margin-left: 5%;
+    padding: 2%;
+    width: 20%;
+}

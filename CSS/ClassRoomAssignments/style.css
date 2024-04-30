@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    border: 0;
+}
+
+
+.Nav-bar{
+    display: flex;
+    margin-top: 2%; 
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2%;
+    position: sticky;
+    top :0%;
+    background-color: white;
+}
+.logo img{
+
+    height: 100%;
+    width: 100%;
+}
+
+.contents{
+    flex:2;
+}
+.contents ul li{
+    list-style-type: none;
+    display: inline-block;
+    justify-content:space-around;
+    margin-left: 5%;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.labels{
+    margin-right: 10%;
+    height: 100%;
+    display:flex;
+    justify-content: space-evenly;
+   
+  
+}
+
+.labels #booking{
+    padding: 2%;
+    border: 2px solid red;
+    color: red;
+    font-weight: bolder;
+    margin-right: 5%;
+    width: 200%;
+    border-radius: 10%;
+   
+}
+
+.labels #freetrial{
+    width: 150%;
+    color: white;
+    background-color: red;
+    font-weight: bolder;
+}
+
+/* hovering */
+.labels #booking:hover{
+    padding: 2%;
+    border: 2px solid red;
+    color: rgb(125, 85, 10);
+    background-color:rgb(236, 214, 188);
+    font-weight: bolder;
+    margin-right: 5%;
+    width: 200%;
+    border-radius: 10%;
+   
+}
+
+.labels #freetrial:hover{
+    width: 150%;
+    color: white;
+    background-color: rgb(221, 105, 63);
+    font-weight: bolder;
+}
+
+.main-container{
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+    color: rgb(8, 8, 54);
+    margin-bottom: 5%;
+   
+}
+.contacts{
+    margin-top: 2%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(24, 24, 79);
+    margin-bottom: 2%;
+}
+
+
+.first{
+    font-size: 3rem;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    word-spacing: .8rem;
+   
+}
+
+.queries{
+  
+   
+    background-color: rgb(168, 209, 209);
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    justify-items: space-evenly;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.left{
+    margin-top: 5%;
+}
+.contact-sales{
+    margin-top: 5%;
+    background-color: white;
+    width: 25vw;
+    padding: 3%;
+    border-radius: 5%;
+    color: rgb(29, 29, 62);
+    font-size: 1rem;
+    margin-bottom: 5%;
+   
+}
+
+.chat-with-us{
+    background-color: white;
+    padding: 3%;
+    width: 25vw;
+    border-radius: 2.5%;
+
+}
+.chat-with-us p{
+    line-height: 1.5rem;
+    color: rgb(17, 17, 56);
+}
+
+.contact-sales p{
+    line-height: 1.5rem;
+}
+.message{
+    margin-top: 5%;
+    background-color: white;
+    padding: 3%;
+    margin-left: 2.5%;
+    width: 30vw;
+    border-radius: 5%;
+   
+}
+
+.label-formating{
+    width: 70%;
+    height: 1.5rem;
+    border: 2px solid rgba(rgb(11, 9, 9), rgb(5, 13, 5), rgb(8, 8, 26), .5);
+}
+
+.label-formating1{
+    width: 70%;
+    height: 3rem;
+}
+.label-formating:focus{
+   border: 2px solid blue;
+}
+
+#submit-btn{
+    color:white;
+    font-weight: bold;
+    background-color: orangered;
+    padding: 2.5%;
+    width: 90%;
+}

@@ -1,0 +1,47 @@
+.backgroundproperty{
+   
+    background-image: url("https://images.pexels.com/photos/462118/pexels-photo-462118.jpeg?cs=srgb&dl=bloom-blooming-blossom-462118.jpg&fm=jpg");
+    background-repeat: no-repeat;
+    width: 90%;
+    background-size: 300px 200px;
+    font-size: large;
+    font-weight: bolder;
+    background-attachment: fixed;
+    background-position:top center;
+}
+
+.backgroundOrigin{
+    background-color: aquamarine;
+    height: 40%;
+    padding: 5%;
+    width: 90%;
+    margin-left: 5%;
+    text-align: justify;
+    border: 10px  dashed green;
+    background-image: url("https://th.bing.com/th/id/OIP.KIF9OxJ7rVzrG3UcyhmiMwHaEK?rs=1&pid=ImgDetMain");
+    background-origin: border-box;
+    background-repeat: no-repeat;
+   
+}
+#backgroundClipping{
+    background-image: url("https://th.bing.com/th/id/OIP.KIF9OxJ7rVzrG3UcyhmiMwHaEK?rs=1&pid=ImgDetMain");
+    font-family: Impact;
+    background-size: 150px 200px;
+    font-size: 40px;
+    color: transparent;
+    background-clip: text;
+}
+.gradients{
+    background:linear-gradient(to right,orange,green,blue)
+}
+
+.repeatingGradient{
+    background: repeating-linear-gradient(white 7%,green 25%,blue 57%);
+}
+
+.radialGradient{
+    height: 30%;
+    width: 50%;
+   
+    background: radial-gradient(orange,green,white,black);
+}

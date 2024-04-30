@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    border:0;
+}
+
+#buttons{
+    height: 2rem;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.Navigation{ /* parent */
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+    background-color: black;
+    height: 3rem;
+    justify-content: space-between;
+   
+}
+
+.nav-bar{ /*  content child */
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    flex: 2;
+   
+}
+
+
+.logo img{ /* image child */
+    width: 100%;
+    height: 100%;
+}
+
+
